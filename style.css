@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#container-pai{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0.75;
+
+}
+#container-filho-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 0.25;
+    border: 1px solid red;
+}
+
+#container-filho-center{
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 0.75;
+    border: 1px solid pink;
+}
+
+/* Opção menu*/
+
+.opcao-menu{
+    box-sizing: border-box;
+}
+
+.opcao-menu ul li{
+    background-color:grey;
+    display: flex;
+    flex-direction: column;
+
+
+}
